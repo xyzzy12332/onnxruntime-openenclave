@@ -39,7 +39,7 @@ In both cases, you will get a JSON file which contains the detailed performance 
 * Load the generated JSON file
 
 ## Using different Execution Providers
-To learn more about different Execution Providers, see [docs/exeuction_providers](./execution_providers).
+To learn more about different Execution Providers, see [docs/execution_providers](./execution_providers).
 
 ### Python API
 Official Python packages on Pypi only support the default CPU (MLAS) and default GPU (CUDA) execution providers. For other execution providers, you need to build from source. Please refer to the [build instructions](../BUILD.md). The recommended instructions build the wheel with debug info in parallel.
